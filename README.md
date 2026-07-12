@@ -1,0 +1,73 @@
+# DURU-AI — CC0 BGM (unified)
+
+Background music from the creator's YouTube channels (**DURU-AI**: <https://www.youtube.com/@DURU-AI0503>),
+released into the public domain under **CC0 1.0** — free for anything (videos, games, streams,
+commercial projects), **no attribution required** (attribution welcome, never obligatory).
+
+This repo unifies the previously separate `duru-cc0-bgm` and `hyak-cc0-bgm` packs into one place.
+**MP3 320 kbps only** — grab any track from [`mp3/`](mp3/).
+
+Every track is **composed and produced in code** (Python + NumPy / SciPy). Two groups:
+
+- **[pure]** — 100% synthesized in code, **zero external audio samples**, no VST instruments.
+- **[+sfx]** — original music that also layers in **third-party sound effects that are themselves CC0**
+  (see "Third-party CC0 audio" below). The whole mix is CC0; these are **not** claimed to be sample-free.
+
+## Tracks
+
+| file | used in | length | melody | build |
+|---|---|---|---|---|
+| `hyak-ep2-korobeiniki-tetris` | *내 AI만 실수하는 이유* / bank & schema making-of explainer | 2:40 | *Korobeiniki* (public domain) | **[pure]** |
+| `korobeiniki-arcade-fullver` | arcade arrangement (Korobeiniki) | 2:40 | *Korobeiniki* (public domain) | **[+sfx]** |
+| `korobeiniki-boombap-loop` | *DURU BLOCK FEVER* (Tetris tribute) | 0:48 (loop) | *Korobeiniki* (public domain) | **[pure]** |
+| `mountainking-arcade-loop` | *DURU 2048* (4-seed race) | 0:40 (loop) | Grieg, *In the Hall of the Mountain King* (public domain) | **[pure]** |
+| `duru-rondo` | *Channel surfing (MV)* (ep13) · *CHANNEL SURF* (ep29) | 1:04 | original | **[pure]** |
+| `duru-roomscene-lofi` | lo-fi radio room (ep11) | 1:44 | original | **[pure]** |
+| `duru-arcade-vibe` | *Arcade — vibe (MV)* chiptune (ep14) | 1:02 | original | **[pure]** |
+| `duru-rhythm-fever` | *RHYTHM FEVER (Full Stage)* (ep19) | 1:28 | original | **[+sfx]** |
+| `duru-denparcade` | *DENPARCADE* (ep16) | 1:25 | original | **[+sfx]** + Faust DSP lead |
+| `duru-winter-arcade` | winter arcade (ep14) | 1:02 | original | **[+sfx]** |
+| `hyak-ep1-rhythm` | Rhythm game | 2:40 | original | **[pure]** |
+| `hyak-ep3-suika` | Suika (fruit merge) | 2:40 | original | **[pure]** |
+| `hyak-ep4-blackhole` | Black hole | 2:38 | original | **[pure]** |
+| `hyak-ep5-2048` | 2048 | 2:40 | original | **[pure]** |
+| `hyak-ep6-galaxy` | Galaxy collision | 2:40 | original | **[pure]** |
+| `hyak-ep7-danmaku` | Bullet-hell dodge | 2:40 | original | **[pure]** |
+
+## License — please read
+
+- **All tracks are released under CC0 1.0** (public-domain dedication). Use them for anything —
+  no attribution required. See [LICENSE](LICENSE).
+- **Melody**: tracks marked *original* are the creator's own composition. `korobeiniki-*` and
+  `hyak-ep2-korobeiniki-tetris` arrange *Korobeiniki* (Коробейники) and `mountainking-*` arranges
+  Grieg's *In the Hall of the Mountain King* — both **19th-century, public-domain** melodies anyone
+  may freely use. The arrangements & recordings are dedicated to the public domain under CC0.
+- **[pure] tracks** are 100% synthesized in code (Python + NumPy / SciPy): no external audio samples,
+  no sample libraries, no VST instruments.
+- **[+sfx] tracks** are original music with third-party **CC0** sound effects layered in (see below).
+  Because every added component is itself CC0, the finished track is CC0 too — but these are, honestly,
+  not sample-free.
+
+### Third-party CC0 audio used in the [+sfx] tracks
+
+All of it is public-domain / CC0 and free to redistribute:
+
+- **Sheep "baa" vocalizations** — BigSoundBank (CC0, no attribution).
+- **Retro coin / gem one-shots** — *80 CC0 RPG SFX* pack (CC0).
+- **Arcade / interface one-shots** (blip, sparkle, coin, boss, laser) — Kenney *Interface Sounds* & *Sci-Fi Sounds* (CC0).
+- **Vocal-chop hit** — Freesound (cat-fox_alex, CC0).
+- **Glockenspiel / marimba** (ep19) — VSCO 2 Community Edition (CC0) sampled instruments.
+- **Faust DSP lead** (ep16 `duru-denparcade`) — a synth instrument *defined in code* (Faust via DawDreamer); output is original synthesis, not a copyrighted VST.
+
+## Not affiliated with Tetris
+
+*Korobeiniki* is a public-domain folk melody widely recognized from the game *Tetris*. The
+`korobeiniki-*` and `hyak-ep2-korobeiniki-tetris` files are independent arrangements of that
+public-domain melody and are **not affiliated with, sponsored by, or endorsed by Tetris Holding, LLC**.
+"Tetris" is a trademark of its respective owner.
+
+## Channels
+
+▶ https://www.youtube.com/@DURU-AI0503
+
+Made with Claude + code.
