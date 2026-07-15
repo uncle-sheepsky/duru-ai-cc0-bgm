@@ -5,7 +5,8 @@ released into the public domain under **CC0 1.0** — free for anything (videos,
 commercial projects), **no attribution required** (attribution welcome, never obligatory).
 
 This repo unifies the previously separate `duru-cc0-bgm` and `hyak-cc0-bgm` packs into one place.
-**MP3 320 kbps only** — grab any track from [`mp3/`](mp3/).
+**MP3 320 kbps** — grab any track from [`mp3/`](mp3/). The Python code that generated the
+tracks lives in [`src/`](src/) (see "Source code" below).
 
 Every track is **composed and produced in code** (Python + NumPy / SciPy). Two groups:
 
@@ -33,6 +34,7 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `hyak-ep5-2048` | 2048 | 2:40 | original | **[pure]** |
 | `hyak-ep6-galaxy` | Galaxy collision | 2:40 | original | **[pure]** |
 | `hyak-ep7-danmaku` | Bullet-hell dodge | 2:40 | original | **[pure]** |
+| `duru-ai-ep2-music` | *music-from-code explainer* (upcoming episode — the track that builds itself layer by layer on screen) | 2:00 | original (A dorian / tresillo) | **[pure]** |
 
 ## License — please read
 
@@ -58,6 +60,19 @@ All of it is public-domain / CC0 and free to redistribute:
 - **Vocal-chop hit** — Freesound (cat-fox_alex, CC0).
 - **Glockenspiel / marimba** (ep19) — VSCO 2 Community Edition (CC0) sampled instruments.
 - **Faust DSP lead** (ep16 `duru-denparcade`) — a synth instrument *defined in code* (Faust via DawDreamer); output is original synthesis, not a copyrighted VST.
+
+## Source code
+
+[`src/`](src/) contains the Python build scripts that synthesized the **[pure]** hyak tracks and
+`duru-ai-ep2-music` — every sound is computed with NumPy/SciPy (shared DSP helpers in
+`src/hyak_synth.py`). Run a script next to `hyak_synth.py` and it writes the track as WAV:
+
+```bash
+python src/build_track_ep2music_fullver.py
+```
+
+The scripts are CC0 like everything else here. Builders for the remaining `duru-*` tracks will be
+added progressively.
 
 ## Not affiliated with Tetris
 
