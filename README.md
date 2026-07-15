@@ -8,6 +8,10 @@ This repo unifies the previously separate `duru-cc0-bgm` and `hyak-cc0-bgm` pack
 **MP3 320 kbps** — grab any track from [`mp3/`](mp3/). The Python code that generated the
 tracks lives in [`src/`](src/) (see "Source code" below).
 
+**Download options**
+- 📦 Everything in one zip: [latest release](https://github.com/uncle-sheepsky/duru-ai-cc0-bgm/releases/latest)
+- 📁 Google Drive mirror (pick single tracks): <https://drive.google.com/drive/folders/1CCKVPIC68w8mGrOxzZk6TtZ8B32mVntz>
+
 Every track is **composed and produced in code** (Python + NumPy / SciPy). Two groups:
 
 - **[pure]** — 100% synthesized in code, **zero external audio samples**, no VST instruments.
