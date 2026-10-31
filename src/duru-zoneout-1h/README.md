@@ -1,5 +1,7 @@
 # Zone out with Duru (1 hour) — 16 tracks · CC0 1.0
 
+▶ Video: [멍 때리기 플레이리스트 · 1시간 / Zone-out playlist · 1 hour](https://youtu.be/nQNfS5DZUiM)
+
 두루랑 멍 때리며 쉬어 가는 1시간 — 영상에 쓴 오리지널 16곡의 작곡 코드입니다. / The code that composed the 16 original tracks.
 **CC0 1.0** — free for anything, no attribution required.
 
