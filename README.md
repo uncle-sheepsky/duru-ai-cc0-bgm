@@ -17,6 +17,9 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 - **[pure]** — 100% synthesized in code, **zero external audio samples**, no VST instruments.
 - **[+sfx]** — original music that also layers in **third-party sound effects that are themselves CC0**
   (see "Third-party CC0 audio" below). The whole mix is CC0; these are **not** claimed to be sample-free.
+- **[+samples]** — original music played with **CC0 sampled acoustic instruments** (VSCO 2 Community Edition)
+  plus code-synthesized parts (music box, steel pan, nylon guitar/banjo/ukulele via Karplus–Strong, whistle, kazoo).
+  Composed note-by-note in Python; **not** sample-free, but every sample is CC0.
 
 ## Tracks
 
@@ -39,6 +42,22 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `hyak-ep6-galaxy` | Galaxy collision | 2:40 | original | **[pure]** |
 | `hyak-ep7-danmaku` | Bullet-hell dodge | 2:40 | original | **[pure]** |
 | `duru-ai-ep2-music` | *music-from-code explainer* (upcoming episode — the track that builds itself layer by layer on screen) | 2:00 | original (A dorian / tresillo) | **[pure]** |
+| `duru-zoneout-01-melty-afternoon` | *Zone out with Duru* #1 — 흐물흐물 오후 (Melty Afternoon) · clarinet · flute · kazoo · tuba | 1:46 | original | **[+samples]** |
+| `duru-zoneout-02-nosebubble-polka` | *Zone out with Duru* #2 — 콧방울 폴카 (Nose-Bubble Polka) · piccolo · xylophone · accordion-like reed | 2:16 | original | **[+samples]** |
+| `duru-zoneout-03-mismatched-socks-march` | *Zone out with Duru* #3 — 짝짝이 양말 행진곡 (Mismatched Socks March) · trumpet · horns · trombone | 3:49 | original | **[+samples]** |
+| `duru-zoneout-04-pillow-waltz` | *Zone out with Duru* #4 — 베개 왈츠 (Pillow Waltz) · music box · harp | 3:54 | original | **[+samples]** |
+| `duru-zoneout-05-droopy-socks-blues` | *Zone out with Duru* #5 — 늘어진 양말 블루스 (Droopy Socks Blues) · harmon-mute trumpet · piano | 3:43 | original | **[+samples]** |
+| `duru-zoneout-06-sleepy-bossa` | *Zone out with Duru* #6 — 졸린 보사 (Sleepy Bossa) · flute · nylon guitar | 3:29 | original | **[+samples]** |
+| `duru-zoneout-07-blanket-habanera` | *Zone out with Duru* #7 — 이불 하바네라 (Blanket Habanera) · bassoon · oboe · pizzicato | 3:37 | original | **[+samples]** |
+| `duru-zoneout-08-tummyrumble-calypso` | *Zone out with Duru* #8 — 꼬르륵 칼립소 (Tummy-Rumble Calypso) · steel pan · ukulele | 4:17 | original | **[+samples]** |
+| `duru-zoneout-09-tossandturn-ska` | *Zone out with Duru* #9 — 뒤척뒤척 스카 (Toss-and-Turn Ska) · horns · organ · melodica | 3:35 | original | **[+samples]** |
+| `duru-zoneout-10-five-beats-on-a-cloud` | *Zone out with Duru* #10 — 구름 위 5박자 (Five Beats on a Cloud) · celesta · harp | 4:15 | original | **[+samples]** |
+| `duru-zoneout-11-warm-milk-nocturne` | *Zone out with Duru* #11 — 우유 한 잔 녹턴 (Warm Milk Nocturne) · piano · clarinet · violin | 3:48 | original | **[+samples]** |
+| `duru-zoneout-12-hophop-slip-jig` | *Zone out with Duru* #12 — 깡총 슬립지그 (Hop-Hop Slip Jig) · flute · fiddle · harp | 4:20 | original | **[+samples]** |
+| `duru-zoneout-13-crumbly-charleston` | *Zone out with Duru* #13 — 부스러기 찰스턴 (Crumbly Charleston) · clarinet · banjo · trombone | 3:12 | original | **[+samples]** |
+| `duru-zoneout-14-yawning-minuet` | *Zone out with Duru* #14 — 하품 미뉴에트 (Yawning Minuet) · oboe · bassoon · strings | 4:22 | original | **[+samples]** |
+| `duru-zoneout-15-snail-march` | *Zone out with Duru* #15 — 달팽이 행진 (Snail March) · tuba · glockenspiel | 4:33 | original | **[+samples]** |
+| `duru-zoneout-16-shootingstar-whistle` | *Zone out with Duru* #16 — 별똥별 휘파람 (Shooting-Star Whistle) · whistle · glockenspiel · harp | 4:40 | original | **[+samples]** |
 
 ## License — please read
 
@@ -63,6 +82,8 @@ All of it is public-domain / CC0 and free to redistribute:
 - **Arcade / interface one-shots** (blip, sparkle, coin, boss, laser) — Kenney *Interface Sounds* & *Sci-Fi Sounds* (CC0).
 - **Vocal-chop hit** — Freesound (cat-fox_alex, CC0).
 - **Glockenspiel / marimba** (ep19) — VSCO 2 Community Edition (CC0) sampled instruments.
+- **Orchestral / band instruments** (all `duru-zoneout-*`: tuba, bassoon, clarinet, flute, piccolo, oboe, trumpet, horn, trombone,
+  strings, harp, piano, organ, mallets, percussion) — VSCO 2 Community Edition (CC0).
 - **Faust DSP lead** (ep16 `duru-denparcade`) — a synth instrument *defined in code* (Faust via DawDreamer); output is original synthesis, not a copyrighted VST.
 
 ## Source code
@@ -74,6 +95,9 @@ All of it is public-domain / CC0 and free to redistribute:
 ```bash
 python src/build_track_ep2music_fullver.py
 ```
+
+[`src/duru-zoneout-1h/`](src/duru-zoneout-1h/) holds the composers' code for the 16 `duru-zoneout-*` tracks
+(one script per song + a small shared sampler/mixer `band.py`); see its README for how to rebuild them.
 
 The scripts are CC0 like everything else here. Builders for the remaining `duru-*` tracks will be
 added progressively.

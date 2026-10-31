@@ -1,0 +1,58 @@
+# Zone out with Duru (1 hour) — 16 tracks · CC0 1.0 · integrity manifest
+
+## durations (seconds) · stage
+
+duru-zoneout-01-melty-afternoon                    106.500  LIGHT  흐물흐물 오후 (Melty Afternoon)
+duru-zoneout-02-nosebubble-polka                   135.779  LIGHT  콧방울 폴카 (Nose-Bubble Polka)
+duru-zoneout-03-mismatched-socks-march             228.861  LIGHT  짝짝이 양말 행진곡 (Mismatched Socks March)
+duru-zoneout-04-pillow-waltz                       234.192  DEEP   베개 왈츠 (Pillow Waltz)
+duru-zoneout-05-droopy-socks-blues                 223.464  DEEP   늘어진 양말 블루스 (Droopy Socks Blues)
+duru-zoneout-06-sleepy-bossa                       208.688  DEEP   졸린 보사 (Sleepy Bossa)
+duru-zoneout-07-blanket-habanera                   217.358  DEEP   이불 하바네라 (Blanket Habanera)
+duru-zoneout-08-tummyrumble-calypso                257.209  LIGHT  꼬르륵 칼립소 (Tummy-Rumble Calypso)
+duru-zoneout-09-tossandturn-ska                    215.154  LIGHT  뒤척뒤척 스카 (Toss-and-Turn Ska)
+duru-zoneout-10-five-beats-on-a-cloud              255.401  DREAM  구름 위 5박자 (Five Beats on a Cloud)
+duru-zoneout-11-warm-milk-nocturne                 227.964  DREAM  우유 한 잔 녹턴 (Warm Milk Nocturne)
+duru-zoneout-12-hophop-slip-jig                    260.219  LIGHT  깡총 슬립지그 (Hop-Hop Slip Jig)
+duru-zoneout-13-crumbly-charleston                 192.454  LIGHT  부스러기 찰스턴 (Crumbly Charleston)
+duru-zoneout-14-yawning-minuet                     262.494  DEEP   하품 미뉴에트 (Yawning Minuet)
+duru-zoneout-15-snail-march                        273.091  DEEP   달팽이 행진 (Snail March)
+duru-zoneout-16-shootingstar-whistle               280.069  DREAM  별똥별 휘파람 (Shooting-Star Whistle)
+
+## sha256 (flac)
+
+9d3514a7dd8c7cb59bcbbddd2ca05015f3fa9c252233b8813fe11d46502b3e34  duru-zoneout-01-melty-afternoon.flac
+52a66aa2df1b9a89687b4dccec7ef85a768a7b6d26c703f6feec0b0d5f9f0a92  duru-zoneout-02-nosebubble-polka.flac
+528a267b53b7b71a1e181e95ddacff3a294496f8e8eaffb0f1795fade5c70aae  duru-zoneout-03-mismatched-socks-march.flac
+307cf8114b31c137b963a64a24b024eccec43a5af103f1c9b5b2304da459525a  duru-zoneout-04-pillow-waltz.flac
+d62dc9f420fb73b25983fb711c244e9fbe9f3efc50c89ee25db0c4f57ab32fdd  duru-zoneout-05-droopy-socks-blues.flac
+91f647f2275f79168bd3edfe6e60f1023de86d88bf0c89f8026bddf700a4bb3f  duru-zoneout-06-sleepy-bossa.flac
+01a9532478bc6d33f657a3e308850d5fe1f8a10d1eaac99de8181a406fbf4453  duru-zoneout-07-blanket-habanera.flac
+70b815fb9f249ab97e646c6b9d99d18c18f449ac13550bc89326cce6aa467995  duru-zoneout-08-tummyrumble-calypso.flac
+bbde9c9a4e167b416cf3abcafbb375d2a40302445925a849ae5783b02bc8d117  duru-zoneout-09-tossandturn-ska.flac
+a4c8adf45d8d926c9048dc376390c4eff7c275308142158f0c4f9537cf9e7d4d  duru-zoneout-10-five-beats-on-a-cloud.flac
+63e40b8d9f383ea24f978aa2a7759f3866402a623b841ebea76b0245dc7ab12b  duru-zoneout-11-warm-milk-nocturne.flac
+29c4942ae8199cd18704c864ce16d443d2a1c6ccba32033c105a91e1f1c01e30  duru-zoneout-12-hophop-slip-jig.flac
+e7d235cca3c9c0218b0859ca498b53341718e4fd4cb49b64b4a8219f784c20d7  duru-zoneout-13-crumbly-charleston.flac
+82e832128452dc26c6e1f181c13d6226b04c8d4869556a5304de8b0557ad87c8  duru-zoneout-14-yawning-minuet.flac
+0005dee78f90ce7efe5acbeec4ea3dd1aeddf2aaebfc49aef5a6a205532426b7  duru-zoneout-15-snail-march.flac
+16d2913a9c2f1f182f9ba4f5c177a26355f1d4a71c32aaffac0ecdea1f7304b8  duru-zoneout-16-shootingstar-whistle.flac
+
+## sha256 (mp3)
+
+26a7fba61cbac1dd827c1651769d594d285cbd87f3dddef32ea0fe8d527c4169  duru-zoneout-01-melty-afternoon.mp3
+e95329c19e8156e6eb65f41f453109baa79d5d5f8dd1fb21289263f247f6c9fb  duru-zoneout-02-nosebubble-polka.mp3
+f610ecb1d1df1ab73d637581d08867ad72a1b8d0dce611b4390dea2f5e21cd91  duru-zoneout-03-mismatched-socks-march.mp3
+da85efd6ec992a341afc751895017c51273587744831361cad65157ba48d9ac8  duru-zoneout-04-pillow-waltz.mp3
+3d7a2b5405e2a81e0710c9578cf15ed7f23010978891545cf00b5409f0139299  duru-zoneout-05-droopy-socks-blues.mp3
+c0ecaab11649f670a3eebd4fa30840b12f159e2442db3c05a57cd9d1aa2e4329  duru-zoneout-06-sleepy-bossa.mp3
+d91e8d766bd62816fa56c0002ecdd87ec84de32655a4b2ff92013700479ed970  duru-zoneout-07-blanket-habanera.mp3
+0bf897d09f63aae29fc3156beafbac5b048dc73ed9516586b6455fd3ac91d580  duru-zoneout-08-tummyrumble-calypso.mp3
+8d64bc3610446418be57213a8ae4be708e7b6208462ec8cde022c98602a069e5  duru-zoneout-09-tossandturn-ska.mp3
+d18b190d81a20f2d5de3b2c13a55ecc4669e692c6677e1835e1d6013e7e5f988  duru-zoneout-10-five-beats-on-a-cloud.mp3
+04737a8f4326332fae76b437a80a0ffc3342a91521af0a8ac6039f2e9dab595c  duru-zoneout-11-warm-milk-nocturne.mp3
+d6ed85254002a369c12a2a394dd3af11fd3c054195135f63844e87741e64292c  duru-zoneout-12-hophop-slip-jig.mp3
+97b43bbe1f7a67d7d71b80f68c60f5583d08d777e78311b5a006b1e451afa62a  duru-zoneout-13-crumbly-charleston.mp3
+3c3a03336b891d853a03ac2e2a864dfe53b11300edca248aaac8a7f3373353a9  duru-zoneout-14-yawning-minuet.mp3
+ece8c86b5bf0d43fdb3af1f5e26034838295386be38fcfd94b865662c99e63ff  duru-zoneout-15-snail-march.mp3
+d663a288a100549993894cc47b88577a138d1d4c375dfab25c5bec426306715b  duru-zoneout-16-shootingstar-whistle.mp3
