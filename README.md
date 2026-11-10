@@ -58,6 +58,7 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `duru-zoneout-14-yawning-minuet` | [*멍 때리기 플레이리스트 · 1시간*](https://youtu.be/nQNfS5DZUiM) #14 — 하품 미뉴에트 (Yawning Minuet) · oboe · bassoon · strings | 4:22 | original | **[+samples]** |
 | `duru-zoneout-15-snail-march` | [*멍 때리기 플레이리스트 · 1시간*](https://youtu.be/nQNfS5DZUiM) #15 — 달팽이 행진 (Snail March) · tuba · glockenspiel | 4:33 | original | **[+samples]** |
 | `duru-zoneout-16-shootingstar-whistle` | [*멍 때리기 플레이리스트 · 1시간*](https://youtu.be/nQNfS5DZUiM) #16 — 별똥별 휘파람 (Shooting-Star Whistle) · whistle · glockenspiel · harp | 4:40 | original | **[+samples]** |
+| `duru-reacts` | [*반응하는 두루 / Duru Reacts*](https://youtu.be/Ab87XWl7h4Y) — touch-reaction animation · marimba · clarinet · pizzicato strings · oboe · horn + violins · code thumb-piano | 2:27 | original (D minor → D major) | **[+samples]** |
 
 ## License — please read
 
@@ -98,6 +99,9 @@ python src/build_track_ep2music_fullver.py
 
 [`src/duru-zoneout-1h/`](src/duru-zoneout-1h/) holds the composers' code for the 16 `duru-zoneout-*` tracks
 (one script per song + a small shared sampler/mixer `band.py`); see its README for how to rebuild them.
+
+[`src/duru-reacts/`](src/duru-reacts/) holds the composer code + the shared picture/music value file for `duru-reacts`
+(uses the same `band.py` sampler as the zone-out set; see its README).
 
 The scripts are CC0 like everything else here. Builders for the remaining `duru-*` tracks will be
 added progressively.
