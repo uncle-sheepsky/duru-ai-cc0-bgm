@@ -59,6 +59,13 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `duru-zoneout-15-snail-march` | [*멍 때리기 플레이리스트 · 1시간*](https://youtu.be/nQNfS5DZUiM) #15 — 달팽이 행진 (Snail March) · tuba · glockenspiel | 4:33 | original | **[+samples]** |
 | `duru-zoneout-16-shootingstar-whistle` | [*멍 때리기 플레이리스트 · 1시간*](https://youtu.be/nQNfS5DZUiM) #16 — 별똥별 휘파람 (Shooting-Star Whistle) · whistle · glockenspiel · harp | 4:40 | original | **[+samples]** |
 | `duru-reacts` | [*반응하는 두루 / Duru Reacts*](https://youtu.be/Ab87XWl7h4Y) — touch-reaction animation · marimba · clarinet · pizzicato strings · oboe · horn + violins · code thumb-piano | 2:27 | original (D minor → D major) | **[+samples]** |
+| `duru-bed-bgm-free` | [*클로드한테 시켜봤습니다 | 파이썬으로 BGM 만들기*](https://youtu.be/cfq1DbHfPcg) — background track · vibraphone · horn · FM electric piano. Contains silence where the video plays other audio: 0:00–0:08, 0:37–0:53, 1:07–1:23, 1:41–1:57, 2:13–2:29, 2:32–2:48. | 3:41 | original | **[+samples]** |
+| `duru-bed-tspin-fake` | [*AI가 만든 거짓말에 속지 않으려면*](https://youtu.be/aJgK9TF4Hzg) — background track · marimba · xylophone · bassoon · strings. Contains silence where the video plays other audio: 0:00–0:08, 1:49–2:00. | 2:37 | original | **[+samples]** |
+| `duru-bed-frame-gap` | [*노히트라던 탄막을 다시 검사해봤습니다*](https://youtu.be/phQ7-AZkc2o) — background track. Contains silence where the video plays other audio: 0:00–0:12, 2:26–2:46. | 3:17 | original | **[+samples]** |
+| `duru-danmaku-short` | [*노히트라던 탄막을 다시 검사해봤습니다*](https://youtu.be/phQ7-AZkc2o) — the finished-run section (also the 3,490-bullet short). | 0:16 | original | **[+samples]** |
+| `duru-bed-rhythm-perspective` | [*CSS코드로 만든 리듬게임 연출, 원근감이 살도록 고쳐보기*](https://youtu.be/ySvz8jbyN48) — background track · pizzicato · harp · muted horn · upright piano. Contains silence where the video plays other audio: 0:00–0:03. | 2:59 | original | **[+samples]** |
+| `duru-bed-galaxy-spin` | [*별 만 개를 다 계산하지 않고 은하를 부딪혀 봤습니다*](https://youtu.be/hzaGPEUVoyI) — background track · pipe organ · clarinet · flute. | 1:54 | original | **[+samples]** |
+| `duru-bed-clap-face` | [*AI가 망친 두루를 되찾은 방법*](https://youtu.be/xdjCyGcwCdg) — background track · marimba · pizzicato · bassoon · oboe. | 7:32 | original | **[+samples]** |
 
 ## License — please read
 
@@ -102,6 +109,9 @@ python src/build_track_ep2music_fullver.py
 
 [`src/duru-reacts/`](src/duru-reacts/) holds the composer code + the shared picture/music value file for `duru-reacts`
 (uses the same `band.py` sampler as the zone-out set; see its README).
+
+[`src/duru-video-beds/`](src/duru-video-beds/) holds the composer code for the `duru-bed-*` background tracks and
+`duru-danmaku-short` (same `band.py` sampler; each folder rebuilds its track bit-identically — see its README).
 
 The scripts are CC0 like everything else here. Builders for the remaining `duru-*` tracks will be
 added progressively.
