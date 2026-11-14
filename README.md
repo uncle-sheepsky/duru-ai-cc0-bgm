@@ -66,6 +66,7 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `duru-bed-rhythm-perspective` | [*CSS코드로 만든 리듬게임 연출, 원근감이 살도록 고쳐보기*](https://youtu.be/ySvz8jbyN48) — background track · pizzicato · harp · muted horn · upright piano. Contains silence where the video plays other audio: 0:00–0:03. | 2:59 | original | **[+samples]** |
 | `duru-bed-galaxy-spin` | [*별 만 개를 다 계산하지 않고 은하를 부딪혀 봤습니다*](https://youtu.be/hzaGPEUVoyI) — background track · pipe organ · clarinet · flute. | 1:54 | original | **[+samples]** |
 | `duru-bed-clap-face` | [*AI가 망친 두루를 되찾은 방법*](https://youtu.be/xdjCyGcwCdg) — background track · marimba · pizzicato · bassoon · oboe. | 7:32 | original | **[+samples]** |
+| `duru-bed-brainmap-leftpanel` | *검사는 다 통과했는데, 왼쪽 화면이 2분 넘게 그대로였습니다* (video not public yet) — background track · flute · harp · viola ensemble · contrabass pizzicato · clarinet. | 2:18 | original | **[+samples]** |
 
 ## License — please read
 

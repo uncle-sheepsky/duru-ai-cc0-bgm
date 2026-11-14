@@ -16,6 +16,7 @@ Sounds: instrument samples from **VSCO 2 Community Edition (CC0)** plus code-syn
 | `rhythm-perspective/` | [`duru-bed-rhythm-perspective`](../../mp3/duru-bed-rhythm-perspective.mp3) | [CSS코드로 만든 리듬게임 연출, 원근감이 살도록 고쳐보기](https://youtu.be/ySvz8jbyN48) | G · 4/4 · ♩90 | 0:00–0:03 |
 | `galaxy-spin/` | [`duru-bed-galaxy-spin`](../../mp3/duru-bed-galaxy-spin.mp3) | [별 만 개를 다 계산하지 않고 은하를 부딪혀 봤습니다](https://youtu.be/hzaGPEUVoyI) | C · 6/8 · ♩.=60 | — |
 | `clap-face/` | [`duru-bed-clap-face`](../../mp3/duru-bed-clap-face.mp3) | [AI가 망친 두루를 되찾은 방법](https://youtu.be/xdjCyGcwCdg) | F · 4/4 · ♩112.5 | — |
+| `brainmap-leftpanel/` | [`duru-bed-brainmap-leftpanel`](../../mp3/duru-bed-brainmap-leftpanel.mp3) | *검사는 다 통과했는데, 왼쪽 화면이 2분 넘게 그대로였습니다* (video not public yet) | B♭ major (C major in part 6) · 4/4 · ♩112.5 | — |
 
 ## Rebuild
 
@@ -26,7 +27,7 @@ export VSCO_SFZ_DIR=/path/to/VSCO-2-CE-SFZ        # folder containing *.sfz
 cd galaxy-spin && python build_bed.py --tag v1    # writes out/v1/bed.wav
 ```
 
-`clap-face` uses `--tag v3`. `danmaku-short` is `python build_bgm.py --tag v3` and writes `out/v3/mix.wav`.
+`clap-face` uses `--tag v3`. `brainmap-leftpanel` uses `--tag v7`. `danmaku-short` is `python build_bgm.py --tag v3` and writes `out/v3/mix.wav`.
 `frame-gap` imports instrument functions from `danmaku-short/build_bgm.py`.
 
 The shared sampler and mixer (`band.py`, `sfz_sampler.py`) live in [`../duru-zoneout-1h/`](../duru-zoneout-1h/). `lufs_spread.py` is the loudness meter.
