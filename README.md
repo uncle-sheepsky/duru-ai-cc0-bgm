@@ -67,6 +67,7 @@ Every track is **composed and produced in code** (Python + NumPy / SciPy). Two g
 | `duru-bed-galaxy-spin` | [*별 만 개를 다 계산하지 않고 은하를 부딪혀 봤습니다*](https://youtu.be/hzaGPEUVoyI) — background track · pipe organ · clarinet · flute. | 1:54 | original | **[+samples]** |
 | `duru-bed-clap-face` | [*AI가 망친 두루를 되찾은 방법*](https://youtu.be/xdjCyGcwCdg) — background track · marimba · pizzicato · bassoon · oboe. | 7:32 | original | **[+samples]** |
 | `duru-bed-brainmap-leftpanel` | *검사는 다 통과했는데, 왼쪽 화면이 2분 넘게 그대로였습니다* (video not public yet) — background track · flute · harp · viola ensemble · contrabass pizzicato · clarinet. | 2:18 | original | **[+samples]** |
+| `duru-bed-colorkit-template` | *내 영상을 아무 캐릭터로나 만들 수 있게 바꿨습니다* (video not public yet) — background track 「틀 몬투노」 (Template Montuno) · son montuno · marimba · upright piano · contrabass pizzicato · flute · claves · congas. | 2:25 | original | **[+samples]** |
 
 ## License — please read
 

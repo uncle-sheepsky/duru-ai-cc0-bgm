@@ -1,0 +1,45 @@
+{
+ "bpm_quarter": 150,
+ "meter": "4/4",
+ "bars": 91,
+ "bar_seconds": 1.6,
+ "total_seconds": 145.6,
+ "sections": [
+  [
+   "intro",
+   0,
+   5
+  ],
+  [
+   "A1",
+   5,
+   16
+  ],
+  [
+   "A2",
+   21,
+   12
+  ],
+  [
+   "B",
+   33,
+   16
+  ],
+  [
+   "A3",
+   49,
+   16
+  ],
+  [
+   "C",
+   65,
+   16
+  ],
+  [
+   "outro",
+   81,
+   10
+  ]
+ ],
+ "note": "values only — the video's narration text is not included"
+}
