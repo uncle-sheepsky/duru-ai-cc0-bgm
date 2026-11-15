@@ -1,7 +1,7 @@
 # Duru video background tracks — composer code (CC0)
 
 The background music written for individual videos on the channel, as used in those videos.
-**CC0 1.0** — free for anything, no attribution required. Music and code only; the videos and the Duru character are not part of this release.
+**CC0 1.0** — free for anything, no attribution required. Music and code only; the videos are not part of this release. The Duru pictures used in those videos are CC0 as well, in [duru-art](https://github.com/uncle-sheepsky/duru-art).
 
 Some tracks have long silent stretches. Those are the spots where the video plays other audio (a short clip, a demo section, a playlist excerpt). The files are left exactly as used. The silent stretches are listed below.
 

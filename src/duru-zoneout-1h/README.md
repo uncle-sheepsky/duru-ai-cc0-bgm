@@ -38,4 +38,4 @@ python tracks/t02_polka.py                        # tracks 2–16
 
 \*The playlist follows a sleep curve: LIGHT tracks −14 LUFS, DEEP −16, DREAM −16.5 (quieter as sleep deepens).
 Integrity: [`MANIFEST.txt`](MANIFEST.txt) (durations + SHA-256 of the released FLAC/MP3).
-Video, background art and the Duru character are **not** part of this CC0 release — only the music and this code.
+The video and the background art are **not** part of this CC0 release, only the music and this code. The Duru pictures are CC0 too, in [duru-art](https://github.com/uncle-sheepsky/duru-art).
